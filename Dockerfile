@@ -1,4 +1,4 @@
-FROM microsoft/aspnetcore:2.1-aspnetcore-runtime
+FROM microsoft/dotnet:2.1-aspnetcore-runtime
 RUN apt-get -qq update && apt-get -qqy --no-install-recommends install \
     git \
     unzip
